@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NaukriProfile">
+  <test name="TestingTestCase">
+  <groups>
+  <run>
+  <include name="Testing"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="TestAutomation.TestNGpractice.practice"/>
+         
+    </classes>
+  </test> 
+</suite>  

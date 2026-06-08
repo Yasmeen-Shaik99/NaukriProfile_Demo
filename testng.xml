@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NaukriProfile" parallel="methods" thread-count="2">>
+  <test name="NaukriLogin">
+    <classes>
+  
+      <class name="TestAutomation.TestNGpractice.practice" />
+       
+    </classes>
+  </test> 
+  
+</suite>  

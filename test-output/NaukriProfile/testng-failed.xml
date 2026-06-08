@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [NaukriProfile]">
+  <test thread-count="2" parallel="methods" name="NaukriLogin(failed)">
+    <classes>
+      <class name="TestAutomation.TestNGpractice.practice">
+        <methods>
+          <include name="ProfileValidate"/>
+          <include name="NaukriLogin"/>
+          <include name="tearDown"/>
+          <include name="NumberUpdate"/>
+        </methods>
+      </class> <!-- TestAutomation.TestNGpractice.practice -->
+    </classes>
+  </test> <!-- NaukriLogin(failed) -->
+</suite> <!-- Failed suite [NaukriProfile] -->
