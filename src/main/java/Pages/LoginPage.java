@@ -25,14 +25,14 @@ public class LoginPage {
 	
 	 
 	
-	public static void loginMethod() {
+	public static void loginMethod(String user_name, String pass_word) {
 		
 		 driver.manage().window().maximize();
 		 driver.get("https://www.naukri.com/");
 		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 		 driver.findElement(id).click();
-		 driver.findElement(username).sendKeys("yasmeenshaik1621@gmail.com");
-		 driver.findElement(password).sendKeys("Yasmeen@99");
+		 driver.findElement(username).sendKeys(user_name);
+		 driver.findElement(password).sendKeys(pass_word);
 		 driver.findElement(submit).click();
 	}
 	public static void validateName(String act) throws InterruptedException {

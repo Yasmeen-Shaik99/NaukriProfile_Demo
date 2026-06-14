@@ -7,7 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="initializeDriver"/>
-          <include name="login"/>
+          <include name="NumberUpdate" invocation-numbers="0"/>
         </methods>
       </class> <!-- TestAutomation.TestNGpractice.NaukriTest -->
     </classes>

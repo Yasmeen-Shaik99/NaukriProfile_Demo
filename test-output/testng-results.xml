@@ -2,20 +2,32 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-07T11:38:15 IST" name="Default suite" finished-at="2026-06-07T11:38:32 IST" duration-ms="16943">
+  <suite started-at="2026-06-12T21:18:09 IST" name="Default suite" finished-at="2026-06-12T21:18:24 IST" duration-ms="15090">
     <groups>
     </groups>
-    <test started-at="2026-06-07T11:38:15 IST" name="Default test" finished-at="2026-06-07T11:38:32 IST" duration-ms="16943">
+    <test started-at="2026-06-12T21:18:09 IST" name="Default test" finished-at="2026-06-12T21:18:24 IST" duration-ms="15090">
       <class name="TestAutomation.TestNGpractice.NaukriTest">
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:TestAutomation.TestNGpractice.NaukriTest@15c43bd9]" started-at="2026-06-07T11:38:15 IST" name="initializeDriver" finished-at="2026-06-07T11:38:16 IST" duration-ms="1491" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:TestAutomation.TestNGpractice.NaukriTest@6b2ea799]" started-at="2026-06-12T21:18:10 IST" name="initializeDriver" finished-at="2026-06-12T21:18:12 IST" duration-ms="2214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="login()[pri:0, instance:TestAutomation.TestNGpractice.NaukriTest@15c43bd9]" started-at="2026-06-07T11:38:16 IST" name="login" finished-at="2026-06-07T11:38:31 IST" duration-ms="15054" status="PASS">
+        <test-method signature="NumberUpdate(java.lang.String,java.lang.String)[pri:0, instance:TestAutomation.TestNGpractice.NaukriTest@6b2ea799]" started-at="2026-06-12T21:18:12 IST" name="NumberUpdate" data-provider="dynamicExcelProvider" finished-at="2026-06-12T21:18:24 IST" duration-ms="11641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yasmeenshaik1621@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yasmeen@99]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestAutomation.TestNGpractice.NaukriTest@15c43bd9]" started-at="2026-06-07T11:38:31 IST" name="tearDown" finished-at="2026-06-07T11:38:32 IST" duration-ms="345" status="PASS">
+        </test-method> <!-- NumberUpdate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestAutomation.TestNGpractice.NaukriTest@6b2ea799]" started-at="2026-06-12T21:18:24 IST" name="tearDown" finished-at="2026-06-12T21:18:24 IST" duration-ms="351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
