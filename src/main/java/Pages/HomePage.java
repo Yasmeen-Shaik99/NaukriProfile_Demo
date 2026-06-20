@@ -51,6 +51,7 @@ public class HomePage {
 			driver.findElement(icon).click();
 			driver.findElement(city).clear();
 			driver.findElement(city).sendKeys(workcity);
+			
 			CommonUtil.waitFOrElement(driver, city_suggestion);
 			driver.findElement(city_suggestion).click();
 			driver.findElement(loclity).sendKeys(locality);
