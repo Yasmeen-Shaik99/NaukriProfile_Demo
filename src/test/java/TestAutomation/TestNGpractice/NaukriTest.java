@@ -15,7 +15,7 @@ import Utilities.ExcelReader;
 public class NaukriTest extends BaseTest {
 	
 
-	@Test(enabled=false,dataProvider = "dynamicExcelProvider", dataProviderClass = ExcelReader.class)
+	@Test(enabled=true,dataProvider = "dynamicExcelProvider", dataProviderClass = ExcelReader.class)
 	public static void login(String username, String password) throws InterruptedException {
 		
 		 LoginPage login= new LoginPage(driver);
@@ -25,7 +25,7 @@ public class NaukriTest extends BaseTest {
 		 
 	}
 	
-	@Test(enabled=true,dataProvider = "dynamicExcelProvider", dataProviderClass = ExcelReader.class)
+	@Test(enabled=false,dataProvider = "dynamicExcelProvider", dataProviderClass = ExcelReader.class)
 	public static void NumberUpdate(String username, String password) throws Exception {
 		
 		
